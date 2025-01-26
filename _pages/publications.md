@@ -17,7 +17,7 @@ Publication stats according to [Google Scholar](https://scholar.google.de/citati
 - i10-index: 11  
 
 Publications in reversed chronological order:  
-<!-- (⬇ Click on a preview image to zoom in 🔎) -->
+(⬇ Click on a preview image to zoom in 🔎)
 
 <!-- _pages/publications.md -->
 <div class="publications">
