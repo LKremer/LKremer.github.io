@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
-
-repo_description_lines_max: 2
+  - LKremer
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - anders-biostat/MethSCAn
+  - LKremer/ggpointdensity
+  - LKremer/CAFE_fig
+  - LKremer/showTree
+  - LKremer/MSA_trimmer
+  - ursgal/ursgal

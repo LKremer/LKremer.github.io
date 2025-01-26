@@ -1,15 +1,38 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+permalink: /software/
+title: software
+# description: bla
 nav: true
-nav_order: 4
+nav_order: 3
 ---
+
+
+I develop open source software for data visualization and the analysis of [omics](https://en.wikipedia.org/wiki/Omics) data.
+Below you can find a selection of these tools.
+More software can be found on [my GitHub page](https://github.com/LKremer).
+
+
+
+{% if site.data.repositories.github_repos %}
+
+## selected GitHub repositories
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.github_repos %}
+    {% include repository/repo.liquid repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}
+
+
+
 
 {% if site.data.repositories.github_users %}
 
-## GitHub users
+---
+
+## GitHub user stats
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -29,19 +52,6 @@ nav_order: 4
   {% include repository/repo_trophies.liquid username=user %}
   </div>
 
----
-
 {% endfor %}
 {% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
 {% endif %}
