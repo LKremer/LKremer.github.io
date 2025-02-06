@@ -11,7 +11,7 @@ nav_order: 1
 
 <!-- Bibsearch Feature -->
 
-Publication stats according to [Google Scholar](https://scholar.google.de/citations?user=WhS7BjkAAAAJ) as of January 2024:
+Publication stats according to [Google Scholar](https://scholar.google.de/citations?user=WhS7BjkAAAAJ) as of January 2025:
 - Citations: 1222  
 - h-index: 11  
 - i10-index: 11  
